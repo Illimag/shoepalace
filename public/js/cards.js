@@ -74,21 +74,33 @@ class Product extends React.Component {
       render() {
         return (
           <div className='card'>
-              <img className='card-img-top' src={this.props.productImageUrl} />
-
             <div className='card-body'>
+            <div className="container">
+            <div className="row">
 
-                <a className="btn btn-primary" onClick={this.handleUpVote}>
-                </a>
-                {this.props.votes}
+
+            <div className="col-10">
               <div className='description'>
-                <a href={this.props.url}>
+                <h1 href={this.props.url}>
                   {this.props.title}
-                </a>
-                <p> 
+                </h1>
+                <p className="des"> 
                   {this.props.description}
                 </p>
+
+                <a className="btn btn-primary" onClick={this.handleUpVote}>
+                +{this.props.votes}
+                </a>
               </div>
+            </div>
+
+            <div className="test">
+              <img className='card-img-top' src={this.props.productImageUrl} />
+            </div>
+
+                </div>
+                </div>
+
             </div>
           </div>
         );

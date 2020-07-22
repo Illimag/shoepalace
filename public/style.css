@@ -16,3 +16,16 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.card-img-top{
+
+}
+
+.des{
+  width: 50%;
+  font-size: .6rem;
+}
+
+.test.col-8{
+  margin-left: 0%;
+}
