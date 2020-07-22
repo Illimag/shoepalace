@@ -79,7 +79,7 @@ class Product extends React.Component {
             <div className="row">
 
 
-            <div className="col-10">
+            <div className="col-8">
               <div className='description'>
                 <h1 href={this.props.url}>
                   {this.props.title}
@@ -87,12 +87,15 @@ class Product extends React.Component {
                 <p className="des"> 
                   {this.props.description}
                 </p>
-
-                <a className="btn btn-primary" onClick={this.handleUpVote}>
-                +{this.props.votes}
-                </a>
               </div>
             </div>
+
+            <div className="col-4">
+            <a className="btn btn-primary" onClick={this.handleUpVote}>
+                <span>+</span> {this.props.votes}
+                </a>
+                </div>
+
 
             <div className="test">
               <img className='card-img-top' src={this.props.productImageUrl} />

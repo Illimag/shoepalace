@@ -22,7 +22,7 @@ window.Seed = (function () {
       },
       {
         id: 3,
-        title: 'Mudclaw©',
+        title: 'MudC©',
         description: 'The worlds toughest grip * Lightweight..',
         url: '#',
         votes: generateVoteCount(),

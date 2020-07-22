@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
       <>
-      <div id="contentTest"></div>
+      <div id="navbar"></div>
       <div id="cards"></div>
       </>
   );
