@@ -63,6 +63,13 @@ body {
   margin-bottom: 5%;
   /* radius for Card */
   border-radius: 1rem !important;
+
+  background: url("images/backback-01.svg");
+  background-position: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .btn.btn-primary{

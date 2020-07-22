@@ -74,6 +74,8 @@ class Product extends React.Component {
       render() {
         return (
           <div className='card'>
+
+
             <div className='card-body'>
             <div className="container">
             <div className="row">
