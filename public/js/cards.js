@@ -81,9 +81,9 @@ class Product extends React.Component {
             <div className="row">
 
 
-            <div className="col-8">
+            <div className="col-7">
               <div className='description'>
-                <h1 href={this.props.url}>
+                <h1 className="title"href={this.props.url}>
                   {this.props.title}
                 </h1>
                 <p className="des"> 
@@ -92,9 +92,10 @@ class Product extends React.Component {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-5">
             <a className="btn btn-primary" onClick={this.handleUpVote}>
-                <span>+</span> {this.props.votes}
+                <span className="plus">+</span> 
+                <span className="votes">{this.props.votes}</span>
                 </a>
                 </div>
 
