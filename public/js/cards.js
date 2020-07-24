@@ -80,6 +80,10 @@ class Product extends React.Component {
             <div className="container">
             <div className="row">
 
+            <div className="test">
+              <img className='card-img-top' src={this.props.productImageUrl} />
+            </div>
+
 
             <div className="col-7">
               <div className='description'>
@@ -100,9 +104,7 @@ class Product extends React.Component {
                 </div>
 
 
-            <div className="test">
-              <img className='card-img-top' src={this.props.productImageUrl} />
-            </div>
+
 
                 </div>
                 </div>
