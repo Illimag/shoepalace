@@ -45,6 +45,7 @@ class ProductList extends React.Component {
           url={product.url}
           votes={product.votes}
           productImageUrl={product.productImageUrl}
+          backgroundImageUrl={product.backgroundImageUrl}
           onVote={this.handleProductUpVote}
         />
       ));
@@ -74,8 +75,7 @@ class Product extends React.Component {
       render() {
         return (
           <div className='card'>
-
-
+              <img className='background' src={this.props.backgroundImageUrl} />
             <div className='card-body'>
             <div className="container">
             <div className="row">

@@ -6,7 +6,7 @@ class NavBar extends React.Component{
         return (
 
         <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#">SHOEPALACE<br></br><span className="test">Shoe Rating Platform</span></a>
+          <a className="navbar-brand" href="#">NIKE RATE</a>
         </nav>
       );
     }

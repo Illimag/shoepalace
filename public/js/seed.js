@@ -11,6 +11,7 @@ window.Seed = (function () {
         url: '#',
         votes: generateVoteCount(),
        productImageUrl: 'images/shoes/shoepalace-01.png',
+       backgroundImageUrl: 'images/shoes_img/background/nike_background-01.png',
       },
       {
         id: 2,
@@ -19,6 +20,7 @@ window.Seed = (function () {
         url: '#',
         votes: generateVoteCount(),
        productImageUrl: 'images/shoes/shoepalace-02.png',
+       backgroundImageUrl: 'images/shoes_img/background/nike_background-02.png',
       },
       {
         id: 3,
@@ -27,6 +29,7 @@ window.Seed = (function () {
         url: '#',
         votes: generateVoteCount(),
        productImageUrl: 'images/shoes/shoepalace-03.png',
+       backgroundImageUrl: 'images/shoes_img/background/nike_background-03.png',
       },
       {
         id: 4,
@@ -35,6 +38,7 @@ window.Seed = (function () {
         url: '#',
         votes: generateVoteCount(),
        productImageUrl: 'images/shoes/shoepalace-04.png',
+       backgroundImageUrl: 'images/shoes_img/background/nike_background-04.png',
       },
       {
         id: 5,
@@ -43,6 +47,7 @@ window.Seed = (function () {
         url: '#',
         votes: generateVoteCount(),
        productImageUrl: 'images/shoes/shoepalace-05.png',
+       backgroundImageUrl: 'images/shoes_img/background/nike_background-05.png',
       },
 
     ];
